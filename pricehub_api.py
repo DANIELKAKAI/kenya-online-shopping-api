@@ -1,5 +1,6 @@
 import requests
 
+#we are using samsung as an example
 
 search_item = "samsung"
 
@@ -15,10 +16,9 @@ search_results = search_results.json()
 
 
 print(shop)
+print("Result count: ",len(items))
 
 items = search_results['results'][shop]
-
-print(len(items))
 
 for item in items:
 	print(item['name'],item['price'],item['image'],item['link'])
