@@ -9,14 +9,14 @@ shop = "jumia"
 
 payload = {'query':search_item}
 
-results = requests.get('https://www.pricehub.co.ke/api/search/',params=payload)
+search_results = requests.get('https://www.pricehub.co.ke/api/search/',params=payload)
 
-results = results.json()
+search_results = search_results.json()
 
 
 print(shop)
 
-items = results['results'][shop]
+items = search_results['results'][shop]
 
 print(len(items))
 
