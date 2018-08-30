@@ -1,4 +1,4 @@
 # pricehub-shopping-api
-Working with pricehub api using python.
+Working with pricehub api
 
-Any version of python is applicable
+In this example i've used python to make the api requests
