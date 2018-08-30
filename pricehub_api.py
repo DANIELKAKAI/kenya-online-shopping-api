@@ -6,7 +6,7 @@ search_item = "samsung"
 
 shop = "jumia"
 
-#shop options are jumia,kilimall,amazon,skygarden,avechi,pigiame,olx
+#shop options are jumia , kilimall , amazon , skygarden , avechi , pigiame , olx , alladin 
 
 payload = {'query':search_item}
 
