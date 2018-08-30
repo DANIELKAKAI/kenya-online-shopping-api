@@ -14,11 +14,13 @@ search_results = requests.get('https://www.pricehub.co.ke/api/search/',params=pa
 
 search_results = search_results.json()
 
+items = search_results['results'][shop]
 
 print(shop)
 print("Result count: ",len(items))
 
-items = search_results['results'][shop]
-
 for item in items:
 	print(item['name'],item['price'],item['image'],item['link'])
+	
+	
+
