@@ -1,8 +1,8 @@
 import requests
 
-#we are using samsung as an example
+#we are searching for iphone 6 in jumia in this example
 
-search_item = "samsung"
+search_item = "iphone 6"
 
 shop = "jumia"
 
