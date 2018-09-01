@@ -1,6 +1,6 @@
-# pricehub-shopping-api
+#Kenya-ecommerce-api
 Working with pricehub api
 
-In this example i've used python to make the api requests
+For each request you can fetch a maximum of 30 items, Authorization is required for more
 
 Official website:https://www.pricehub.co.ke/
