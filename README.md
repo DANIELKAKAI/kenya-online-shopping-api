@@ -1,4 +1,4 @@
-#Kenya-ecommerce-api
+# Kenya-online-shopping-api
 
 Working with pricehub api
 
