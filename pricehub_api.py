@@ -14,7 +14,7 @@ search_results = requests.get('https://www.pricehub.co.ke/api/search/',params=pa
 
 search_results = search_results.json()
 
-#for each request maximum items fetched is 40, Authorization is required for more
+#for each request a maximum of 40 items can be fetched, Authentication is required for more
 
 items = search_results['results'][shop]
 
