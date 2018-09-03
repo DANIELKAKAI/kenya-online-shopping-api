@@ -1,12 +1,11 @@
 import requests
 
 #we are searching for iphone 6 in jumia in this example
+#shop options are jumia , kilimall , amazon , skygarden , avechi , pigiame , olx , masoko
 
 search_item = "iphone 6"
 
-shop = "jumia"
-
-#shop options are jumia , kilimall , amazon , skygarden , avechi , pigiame , olx , alladin 
+shop = "jumia" 
 
 payload = {'query':search_item}
 
