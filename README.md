@@ -1,6 +1,6 @@
 # Kenya-online-shopping-api
 
-A free and simple Api that can be used to fetch items from the following Kenyan online stores:
+A free and simple Api that can be used to fetch items from the following online stores:
 - Jumia
 - Kilimall
 - Masoko
